@@ -1,0 +1,100 @@
+{
+  "input": "data/sample_temporal_edges.csv",
+  "operator": "product",
+  "alpha": 0.5,
+  "kshell_q": 1.0,
+  "time_count": 3,
+  "node_count": 5,
+  "edge_count": 8,
+  "asam_shape": [
+    48,
+    48
+  ],
+  "eigenvalue": 5.33859560553833,
+  "monotonicity": 1.0,
+  "lcc_before": 1.0,
+  "lcc_after": 0.33995833333333336,
+  "deletion_drop_rate": 0.6600416666666666,
+  "cv_weights_by_time": {
+    "1": {
+      "TCM": 0.2628841499129699,
+      "SK": 0.20382219643249533,
+      "C": 0.5332936536545348
+    },
+    "2": {
+      "TCM": 0.26269840473468803,
+      "SK": 0.18949163943121342,
+      "C": 0.5478099558340985
+    },
+    "3": {
+      "TCM": 0.23964829873839,
+      "SK": 0.14840428474649647,
+      "C": 0.6119474165151135
+    }
+  },
+  "cascade_by_time": [
+    {
+      "time_index": 0.0,
+      "seed_count": 2.0,
+      "activated_count": 6.0,
+      "active_fraction": 1.0,
+      "depth": 3.0
+    },
+    {
+      "time_index": 1.0,
+      "seed_count": 2.0,
+      "activated_count": 7.0,
+      "active_fraction": 1.0,
+      "depth": 3.0
+    },
+    {
+      "time_index": 2.0,
+      "seed_count": 2.0,
+      "activated_count": 8.0,
+      "active_fraction": 1.0,
+      "depth": 3.0
+    }
+  ],
+  "top_edges": [
+    {
+      "edge_id": 1,
+      "edge": "B->C",
+      "score": 0.3883193652846933
+    },
+    {
+      "edge_id": 0,
+      "edge": "A->B",
+      "score": 0.366022852584352
+    },
+    {
+      "edge_id": 5,
+      "edge": "E->B",
+      "score": 0.3100430724278768
+    },
+    {
+      "edge_id": 3,
+      "edge": "B->D",
+      "score": 0.30441378176768247
+    },
+    {
+      "edge_id": 2,
+      "edge": "C->A",
+      "score": 0.2788772680517822
+    },
+    {
+      "edge_id": 4,
+      "edge": "D->E",
+      "score": 0.2700813732006567
+    },
+    {
+      "edge_id": 6,
+      "edge": "C->D",
+      "score": 0.1950275795727302
+    },
+    {
+      "edge_id": 7,
+      "edge": "E->A",
+      "score": 0.18472239917865846
+    }
+  ]
+}
