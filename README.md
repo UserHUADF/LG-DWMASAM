@@ -1,6 +1,6 @@
 # LG-DWMASAM 边重要性辨识实验代码
 
-这是根据 `代码-边重要性辨识.docx` 中的 LG-DWMASAM 流程整理的可运行实验项目。论文里的实证数据部分为空，所以项目同时提供：
+这是根据 `边重要性辨识` 中的 LG-DWMASAM 流程整理的可运行实验项目。项目同时提供：
 
 - 通用 CSV 输入接口：`time,source,target,weight`
 - 一份可复现实验样例：`data/sample_temporal_edges.csv`
